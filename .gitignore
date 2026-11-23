@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Local-only files
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+report_template.md
