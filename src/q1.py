@@ -39,7 +39,7 @@ def load_data(path: Path = DATA_PATH) -> tuple[np.ndarray, np.ndarray]:
     """Load the stimulus (x1) and firing-rate (y1) columns as float arrays.
 
     Raises:
-        ValueError: if the columns are missing, lengths differ, or NaNs exist.
+        ValueError: if the columns are missing or contain NaN values.
     """
     df = pd.read_csv(path)
     missing = {"x1", "y1"} - set(df.columns)
