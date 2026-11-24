@@ -9,6 +9,7 @@
 | `docs/` | Assignment instructions (`HW2.pdf`) |
 | `data/` | Input datasets: `HW2_q1_data.csv` (Q1), `HW2_q2_data.csv` (Q2 & Q3) |
 | `src/` | Source code, one file per part |
+| `notebooks/` | Colab notebooks with step-by-step explanations (`q1_colab.ipynb`) |
 | `outputs/figures/` | All generated plots (save every figure here) |
 
 ## Division of work
