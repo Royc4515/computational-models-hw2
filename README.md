@@ -28,7 +28,16 @@ Each task has a code cell, its output, and a short explanation of what the task 
 
 ## Questions 2 & 3 (Miri)
 
-Data: `data/HW2_q2_data.csv`.
+Notebook: `notebooks/HW2_Q2_Q3.ipynb` (also in Google Drive under `Computational Models - HW2/`).
+Data: `data/HW2_q2_data.csv` – columns `x2`, `y2`, N = 60.
+
+| Model | 5-fold CV-MSE | Full-data MSE | AIC | BIC |
+|---|---|---|---|---|
+| Degree 1 | 44.17 | 41.8154 | 227.996 | 232.185 |
+| Degree 3 | 7.09 | 6.4601 | 119.939 | 128.316 |
+| Degree 9 | 8.97 | 5.8695 | 126.186 | 147.130 |
+
+Degree 1 under-fits, degree 9 over-fits, and degree 3 is preferred by cross-validation, AIC and BIC.
 
 ## Repository layout
 
@@ -36,4 +45,4 @@ Data: `data/HW2_q2_data.csv`.
 |---|---|
 | `docs/HW2.pdf` | Assignment instructions |
 | `data/` | `HW2_q1_data.csv` (Q1), `HW2_q2_data.csv` (Q2 & Q3) |
-| `notebooks/` | `HW2_Q1.ipynb` (Q1) |
+| `notebooks/` | `HW2_Q1.ipynb` (Q1), `HW2_Q2_Q3.ipynb` (Q2 & Q3) |
